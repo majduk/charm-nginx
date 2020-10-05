@@ -1,0 +1,9 @@
+server {
+    listen       {{config['host']}}:{{config['port']}};
+
+    {% for publish in config['publishes'] -%}
+    location /{{publish}}/ {
+        root {{config['publishes'][publish]}};
+    }
+    {% endfor -%}
+}

@@ -1,0 +1,16 @@
+# Copyright 2020 Ubuntu
+# See LICENSE file for licensing details.
+name: nginx
+description: |
+  Nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev. 
+summary: |
+  Nginx is an HTTP and reverse proxy server.
+tags:
+- "nginx"
+series:
+- "bionic"
+requires:
+  publish:
+    interface: "web-publish"
+
+
