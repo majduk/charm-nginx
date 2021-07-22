@@ -8,7 +8,7 @@ Nginx is an HTTP and reverse proxy server, a mail proxy server, and a generic TC
 
 The charm can be deployed using juju:
 ```
-juju deploy cs:nginx
+juju deploy cs:~majduk/nginx
 ```
 
 ## Developing
